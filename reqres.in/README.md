@@ -102,7 +102,7 @@ Response:
 }
 ```
 
-*3. Show list <RESOURCE>*
+*3. Show list RESOURCE*
 
 <details>
   <summary>Screenshot</summary>
@@ -171,7 +171,7 @@ Response:
 }
 
 ```
-*4. Show single <RESOURCE>*
+*4. Show single RESOURCE*
 
 <details>
   <summary>Screenshot</summary>
@@ -287,7 +287,7 @@ Response:
 {}
 ```
 
-*7. Show single <RESOURCE>*
+*7. Show single RESOURCE*
 
 <details>
   <summary>Screenshot</summary>
