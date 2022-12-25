@@ -342,6 +342,7 @@ Request url params:
 ]
 
 </details>
+
 ***
 
 *4. Update a pet*
@@ -401,6 +402,7 @@ Response:
   
   ![Postman](https://github.com/Meiliger/postman/blob/main/reqres.in/Screens/Single%20Resource%20-%20Valid.png)
 </details>
+
 ***
 
 *5. Upload an image*
@@ -410,6 +412,7 @@ Response:
   
   ![Postman](https://github.com/Meiliger/postman/blob/main/reqres.in/Screens/Delayed%20Response.png)
 </details>
+
 ***
 
 *6. Delete a pet*
