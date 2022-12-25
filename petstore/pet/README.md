@@ -56,6 +56,7 @@ Response:
     "status": "available"
 }
 ```
+***
 
 *2. Find a pet*
 
@@ -110,6 +111,7 @@ Response:
     "status": "available"
 }
 ```
+***
 
 *3. Get pet by status*
 
@@ -340,6 +342,7 @@ Request url params:
 ]
 
 </details>
+***
 
 *4. Update a pet*
 
@@ -398,6 +401,7 @@ Response:
   
   ![Postman](https://github.com/Meiliger/postman/blob/main/reqres.in/Screens/Single%20Resource%20-%20Valid.png)
 </details>
+***
 
 *5. Upload an image*
 
@@ -406,6 +410,7 @@ Response:
   
   ![Postman](https://github.com/Meiliger/postman/blob/main/reqres.in/Screens/Delayed%20Response.png)
 </details>
+***
 
 *6. Delete a pet*
 
@@ -420,206 +425,4 @@ Response:
   
   ![Postman](https://github.com/Meiliger/postman/blob/main/reqres.in/Screens/Single%20User%20-%20Invalid.png)
 </details>
-
-
-
-
-
-
-
-*1. *
-
-<details>
-  <summary>Screenshot</summary>
-  
-  ![Postman](https://github.com/Meiliger/postman/blob/main/reqres.in/Screens/Single%20Resource%20-%20Invalid.png)
-</details>
-
-```
-Method: GET
-EndPoint: /api/unknown/23
-
-Response:
-{}
-```
-*8. Create a user*
-
-<details>
-  <summary>Screenshot</summary>
-  
-  ![Postman](https://github.com/Meiliger/postman/blob/main/reqres.in/Screens/Create%20User%20-%20Valid.png)
-</details>
-
-```
-Method: POST
-EndPoint: /api/users
-Body:
-{
-    "name": "morpheus",
-    "job": "leader"
-}
-
-Response:
-{
-    "name": "morpheus",
-    "job": "leader",
-    "id": "806",
-    "createdAt": "2022-12-23T17:45:56.469Z"
-}
-```
-
-*9. Register a user*
-
-<details>
-  <summary>Screenshot</summary>
-  
-  ![Postman](https://github.com/Meiliger/postman/blob/main/reqres.in/Screens/Register%20-%20Valid.png)
-</details>
-
-```
-Method: POST
-EndPoint: /api/register
-Body:
-{
-    "email": "eve.holt@reqres.in",
-    "password": "pistol"
-}
-
-Response:
-{
-    "id": 4,
-    "token": "QpwL5tke4Pnpja7X4"
-}
-```
-
-*10. Login*
-
-<details>
-  <summary>Screenshot</summary>
-  
-  ![Postman](https://github.com/Meiliger/postman/blob/main/reqres.in/Screens/Login%20-%20Valid.png)
-</details>
-
-```
-Method: POST
-EndPoint: /api/login
-Body:
-{
-    "email": "eve.holt@reqres.in",
-    "password": "cityslicka"
-}
-
-Response:
-{
-    "token": "QpwL5tke4Pnpja7X4"
-}
-```
-
-*11. Register a user - invalid*
-
-<details>
-  <summary>Screenshot</summary>
-  
-  ![Postman](https://github.com/Meiliger/postman/blob/main/reqres.in/Screens/Register%20-%20Invalid.png)
-</details>
-
-```
-Method: POST
-EndPoint: /api/register
-Body:
-{
-    "email": "sydney@fife"
-}
-
-Response:
-{
-    "error": "Missing password"
-}
-```
-
-*12. Login - invalid*
-
-<details>
-  <summary>Screenshot</summary>
-  
-  ![Postman](https://github.com/Meiliger/postman/blob/main/reqres.in/Screens/Login%20-%20Invalid.png)
-</details>
-
-```
-Method: POST
-EndPoint: /api/login
-Body:
-{
-    "email": "peter@klaven"
-}
-
-Response:
-{
-    "error": "Missing password"
-}
-```
-
-*13. Update a user*
-
-<details>
-  <summary>Screenshot</summary>
-  
-  ![Postman](https://github.com/Meiliger/postman/blob/main/reqres.in/Screens/Update.png)
-</details>
-
-```
-Method: PUT
-EndPoint: api/users/2
-Body:
-{
-    "name": "morpheus",
-    "job": "zion resident"
-}
-
-Response:
-{
-    "name": "morpheus",
-    "job": "zion resident",
-    "updatedAt": "2022-12-23T18:01:18.039Z"
-}
-```
-
-*14. Update a user*
-
-<details>
-  <summary>Screenshot</summary>
-  
-  ![Postman](https://github.com/Meiliger/postman/blob/main/reqres.in/Screens/Update%20(PATCH).png)
-</details>
-
-```
-Method: PATCH
-EndPoint: /api/users/2
-Body:
-{
-    "name": "morpheus",
-    "job": "zion resident"
-}
-
-Response:
-{
-    "name": "morpheus",
-    "job": "zion resident",
-    "updatedAt": "2022-12-23T18:04:24.443Z"
-}
-```
-
-*15. Delete a user*
-
-<details>
-  <summary>Screenshot</summary>
-  
-  ![Postman](https://github.com/Meiliger/postman/blob/main/reqres.in/Screens/Delete.png)
-</details>
-
-```
-Method: DELETE
-EndPoint: /api/users/2
-Response: Stutus: 204 No Content
-```
 
