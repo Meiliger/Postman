@@ -10,7 +10,7 @@ Base URL: petstore.swagger.io/v2
 <details>
   <summary>Screenshot</summary>
   
-  ![Postman](https://github.com/Meiliger/postman/blob/main/reqres.in/Screens/List%20Users%20-%20Valid.png)
+  ![Postman](https://github.com/Meiliger/postman/blob/main/petstore/Screens/Pet/add%20a%20pet.png)
 </details>
 
 ```
@@ -63,7 +63,7 @@ Response:
 <details>
   <summary>Screenshot</summary>
   
-  ![Postman](https://github.com/Meiliger/postman/blob/main/reqres.in/Screens/Single%20User%20-%20Valid.png)
+  ![Postman](https://github.com/Meiliger/postman/blob/main/petstore/Screens/Pet/findpet.png)
 </details>
 
 ```
@@ -118,7 +118,7 @@ Response:
 <details>
   <summary>Screenshot</summary>
   
-  ![Postman](https://github.com/Meiliger/postman/blob/main/reqres.in/Screens/list%20Resource%20-%20valid.png)
+  ![Postman](https://github.com/Meiliger/postman/blob/main/petstore/Screens/Pet/getpetbystatus.png)
 </details>
 
 ```
@@ -350,7 +350,7 @@ Request url params:
 <details>
   <summary>Screenshot</summary>
   
-  ![Postman](https://github.com/Meiliger/postman/blob/main/reqres.in/Screens/Single%20Resource%20-%20Valid.png)
+  ![Postman](https://github.com/Meiliger/postman/blob/main/petstore/Screens/Pet/update%20pet.png)
 </details>
 
 ```
@@ -400,7 +400,7 @@ Response:
 <details>
   <summary>The pet is updated</summary>
   
-  ![Postman](https://github.com/Meiliger/postman/blob/main/reqres.in/Screens/Single%20Resource%20-%20Valid.png)
+  ![Postman](https://github.com/Meiliger/postman/blob/main/petstore/Screens/Pet/updated%20pet.png)
 </details>
 
 ***
@@ -410,7 +410,7 @@ Response:
 <details>
   <summary>Screenshot</summary>
   
-  ![Postman](https://github.com/Meiliger/postman/blob/main/reqres.in/Screens/Delayed%20Response.png)
+  ![Postman](https://github.com/Meiliger/postman/blob/main/petstore/Screens/Pet/upload%20an%20image.png)
 </details>
 
 ***
@@ -420,12 +420,12 @@ Response:
 <details>
   <summary>Screenshot</summary>
   
-  ![Postman](https://github.com/Meiliger/postman/blob/main/reqres.in/Screens/Single%20User%20-%20Invalid.png)
+  ![Postman](https://github.com/Meiliger/postman/blob/main/petstore/Screens/Pet/delete%20a%20pet.png)
 </details>
 
 <details>
   <summary>Find the pet</summary>
   
-  ![Postman](https://github.com/Meiliger/postman/blob/main/reqres.in/Screens/Single%20User%20-%20Invalid.png)
+  ![Postman](https://github.com/Meiliger/postman/blob/main/petstore/Screens/Pet/can't%20find%20pet%20after%20removing%20it.png)
 </details>
 
