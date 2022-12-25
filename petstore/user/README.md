@@ -10,7 +10,7 @@ Base URL: petstore.swagger.io/v2
 <details>
   <summary>Screenshot</summary>
   
-  ![Postman](1)
+  ![Postman](https://github.com/Meiliger/postman/blob/main/petstore/Screens/user/1.png)
 </details>
 
 ```
@@ -35,13 +35,14 @@ Response:
     "message": "4"
 }
 ```
+***
 
 *2. Get user by username*
 
 <details>
   <summary>Screenshot</summary>
   
-  ![Postman](2)
+  ![Postman](https://github.com/Meiliger/postman/blob/main/petstore/Screens/user/2.png)
 </details>
 
 ```
@@ -59,13 +60,14 @@ Response:
     "userStatus": 1
 }
 ```
+***
 
 *3. Logs user in the system*
 
 <details>
   <summary>Screenshot</summary>
   
-  ![Postman](3)
+  ![Postman](https://github.com/Meiliger/postman/blob/main/petstore/Screens/user/3.png)
 </details>
 
 ```
@@ -82,13 +84,14 @@ Response:
     "message": "logged in user session:1671980344834"
 }
 ```
+***
 
 *4. Logs user out the system*
 
 <details>
   <summary>Screenshot</summary>
   
-  ![Postman](4)
+  ![Postman](https://github.com/Meiliger/postman/blob/main/petstore/Screens/user/4.png)
 </details>
 
 ```
@@ -102,6 +105,7 @@ Response:
     "message": "ok"
 }
 ```
+***
 
 *5. Update user*
 
@@ -138,16 +142,17 @@ Response:
 <details>
   <summary>Get user by username</summary>
   
-  ![Postman](5(3))
+  ![Postman](https://github.com/Meiliger/postman/blob/main/petstore/Screens/user/5(3).png)
 </details>
 
+***
 
 *6. Creates list of users with given input array*
 
 <details>
   <summary>Screenshot</summary>
   
-  ![Postman](6)
+  ![Postman](https://github.com/Meiliger/postman/blob/main/petstore/Screens/user/6.png)
 </details>
 
 ```
@@ -195,13 +200,14 @@ Response:
     "message": "ok"
 }
 ```
+***
 
 *7. Delete user*
 
 <details>
   <summary>Screenshot</summary>
   
-  ![Postman](7)
+  ![Postman](https://github.com/Meiliger/postman/blob/main/petstore/Screens/user/7.png)
 </details>
 
 ```
@@ -215,4 +221,11 @@ Response:
     "message": "andrey34324"
 }
 ```
+
+<details>
+  <summary>Get user by username</summary>
+  
+  ![Postman](https://github.com/Meiliger/postman/blob/main/petstore/Screens/user/8.png)
+</details>
+
 
